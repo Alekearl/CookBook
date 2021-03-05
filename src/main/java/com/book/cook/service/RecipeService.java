@@ -8,7 +8,7 @@ public interface RecipeService {
 
     void add(Recipe recipe);
 
-    Recipe update(Recipe recipe);
+    void update(Recipe recipe);
 
     Recipe getRecipeByDish(String dish);
 
